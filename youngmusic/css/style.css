@@ -256,12 +256,9 @@ body {
 }
 
 #section-3 .row {
-	margin: 0 -25px;
+	margin: 0 30px;
 }
 
-#section-3 .col-md-6 {
-	padding: 0 25px;
-}
 
 #section-3 .thumb-img {
 	padding-top: 63%;
@@ -275,6 +272,7 @@ body {
 	left: 0;
 	right: 0;
 	bottom: 0;
+	z-index: 10;
 }
 
 #section-3 .thumb-img .sumary .outer {
@@ -562,8 +560,22 @@ body {
     transform: scale3d(1.1, 1.1, 1);
 }
 
+.tp-caption-1 {
+	font-size: 50px!important;
+	font-family: 'Roboto-Bold'!important;
+	font-weight: 900!important;
+	text-align: center!important;
+}
 
+.tp-caption-1 {
+	text-decoration: none!important
+}
 
+.tp-caption-1:hover {
+	text-decoration: none!important;
+	cursor: default!important;
+	border: none!important;
+}
 /*responsive*/
 
 @media screen and (min-width: 1200px) {
